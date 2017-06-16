@@ -1,5 +1,8 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
+import ImportPlaygroundsFramework
+import PlaygroundSupport
 
-print(ViewController.self)
+PlaygroundPage.current.liveView = UIStoryboard( name: "Main", bundle: Bundle(for: ViewController.self)) .instantiateInitialViewController()
+
