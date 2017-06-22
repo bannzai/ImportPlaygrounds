@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kaeru
 
 public class ViewController: UIViewController {
     public override func viewDidLoad() {
@@ -16,10 +17,11 @@ public class ViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "スターください → https://github.com/bannzai/"
         label.sizeToFit()
+        
         view.addSubview(label)
+        
         label.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         label.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        
     }
 }
 

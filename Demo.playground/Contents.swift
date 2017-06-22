@@ -4,5 +4,8 @@ import UIKit
 import ImportPlaygroundsFramework
 import PlaygroundSupport
 
-PlaygroundPage.current.liveView = UIStoryboard( name: "Main", bundle: Bundle(for: ViewController.self)) .instantiateInitialViewController()
+let viewController = UIStoryboard( name: "Main", bundle: Bundle(for: ViewController.self)) .instantiateInitialViewController()
+let NavigationController
 
+
+PlaygroundPage.current.liveView
