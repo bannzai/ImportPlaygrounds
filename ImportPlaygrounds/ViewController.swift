@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Kaeru
 
 public class ViewController: UIViewController {
     public override func viewDidLoad() {

@@ -3,9 +3,11 @@
 import UIKit
 import ImportPlaygroundsFramework
 import PlaygroundSupport
+import Kaeru
 
-let viewController = UIStoryboard( name: "Main", bundle: Bundle(for: ViewController.self)) .instantiateInitialViewController()
-let NavigationController
+let viewController = UIStoryboard(name: "Main", bundle: Bundle(for: ViewController.self)).instantiateInitialViewController()!
+
+let navigationController = HistoryNavigationController(rootViewController: viewController)
 
 
-PlaygroundPage.current.liveView
+PlaygroundPage.current.liveView = navigationController

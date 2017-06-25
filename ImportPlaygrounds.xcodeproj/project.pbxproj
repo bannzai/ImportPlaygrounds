@@ -13,6 +13,8 @@
 		BA5FD4DB1EF0B3570093A16F /* ImportPlaygroundsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5FD4D91EF0B3570093A16F /* ImportPlaygroundsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA5FD4DE1EF0B3570093A16F /* ImportPlaygroundsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5FD4D71EF0B3570093A16F /* ImportPlaygroundsFramework.framework */; };
 		BA5FD4DF1EF0B3570093A16F /* ImportPlaygroundsFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA5FD4D71EF0B3570093A16F /* ImportPlaygroundsFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6A570F1EFC9D2C00C614B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8851B31EF0A1E700076E61 /* Main.storyboard */; };
+		BA6A57101EFC9DB200C614B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8851B11EF0A1E700076E61 /* ViewController.swift */; };
 		BA8851B01EF0A1E700076E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8851AF1EF0A1E700076E61 /* AppDelegate.swift */; };
 		BA8851B21EF0A1E700076E61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8851B11EF0A1E700076E61 /* ViewController.swift */; };
 		BA8851B51EF0A1E700076E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8851B31EF0A1E700076E61 /* Main.storyboard */; };
@@ -363,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6A570F1EFC9D2C00C614B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6A57101EFC9DB200C614B4 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,6 +748,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D6DF486CE9558AE274F9936E /* Pods-ImportPlaygrounds.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImportPlaygrounds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -757,6 +762,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4DEA1A70178D44B4CFA12002 /* Pods-ImportPlaygrounds.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImportPlaygrounds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -834,6 +840,7 @@
 				BA5FD4E21EF0B3570093A16F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA8851A71EF0A1E700076E61 /* Build configuration list for PBXProject "ImportPlaygrounds" */ = {
 			isa = XCConfigurationList;
